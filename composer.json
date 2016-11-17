@@ -1,0 +1,25 @@
+{
+    "name": "reg2005/laravel-email-database-log",
+    "description": "A simple database logger for all outgoing emails sent by Laravel website.",
+    "keywords": ["laravel", "markdown"],
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Shvets",
+            "email": "neochief@shvetsgroup.com"
+        },
+        {
+            "name": "Evgeniy Ryumin",
+            "email": "cmp08@ya.ru"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Reg2005\\LaravelEmailDatabaseLog\\": "src"
+        }
+    }
+}
